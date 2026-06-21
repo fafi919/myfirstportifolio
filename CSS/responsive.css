@@ -1,0 +1,535 @@
+/* Large devices (desktops, 1200px and up) */
+@media (max-width: 1199.98px) {
+    .hero-title {
+        font-size: 3rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.3rem;
+    }
+    
+    .section-title {
+        font-size: 2.2rem;
+    }
+    
+    .stat-number {
+        font-size: 2.5rem;
+    }
+}
+
+/* Medium devices (tablets, 992px and up) */
+@media (max-width: 991.98px) {
+    body {
+        padding-top: 70px;
+    }
+    
+    .hero-section {
+        padding: 60px 0;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .hero-content {
+        text-align: center;
+        margin-bottom: 40px;
+        padding-right: 0;
+    }
+    
+    .hero-buttons {
+        justify-content: center;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .section-subtitle {
+        font-size: 1rem;
+    }
+    
+    .feature-highlight-card .row {
+        flex-direction: column;
+    }
+    
+    .feature-image {
+        height: 250px;
+    }
+    
+    .feature-highlight-card .card-body {
+        padding: 30px;
+    }
+    
+    .contact-info,
+    .contact-form {
+        margin-bottom: 40px;
+    }
+    
+    .footer .col-lg-4:first-child {
+        margin-bottom: 40px;
+    }
+    
+    .footer .col-lg-2 {
+        margin-bottom: 30px;
+    }
+    
+    .cart-dropdown {
+        min-width: 300px;
+    }
+}
+
+/* Small devices (landscape phones, 768px and up) */
+@media (max-width: 767.98px) {
+    .hero-title {
+        font-size: 2.2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .hero-description {
+        font-size: 1rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .stat-card {
+        margin-bottom: 20px;
+    }
+    
+    .stat-number {
+        font-size: 2rem;
+    }
+    
+    .feature-card,
+    .ebook-card,
+    .review-card,
+    .event-card {
+        margin-bottom: 20px;
+    }
+    
+    .review-card {
+        padding: 25px;
+    }
+    
+    .accordion-button {
+        padding: 20px;
+        font-size: 1rem;
+    }
+    
+    .accordion-body {
+        padding: 20px;
+    }
+    
+    .newsletter-card {
+        padding: 40px 30px;
+    }
+    
+    .newsletter-card h2 {
+        font-size: 2rem;
+    }
+    
+    .newsletter-form .input-group {
+        flex-direction: column;
+    }
+    
+    .newsletter-form .form-control {
+        border-radius: 50px;
+        margin-bottom: 10px;
+    }
+    
+    .newsletter-form .btn {
+        border-radius: 50px;
+        width: 100%;
+    }
+    
+    .contact-info,
+    .contact-form {
+        padding: 30px;
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
+    
+    .footer .row:last-child {
+        text-align: center;
+    }
+    
+    .footer .row:last-child .text-md-end {
+        text-align: center !important;
+        margin-top: 10px;
+    }
+    
+    .footer .row:last-child a {
+        margin: 0 10px;
+    }
+    
+    .app-buttons {
+        justify-content: center;
+    }
+    
+    .back-to-top {
+        width: 45px;
+        height: 45px;
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    
+    .brand-tagline {
+        display: none;
+    }
+    
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    
+    .hero-buttons .btn {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .hero-buttons .btn:last-child {
+        margin-bottom: 0;
+    }
+    
+    .floating-badge {
+        top: 20px;
+        right: 20px;
+        padding: 15px;
+    }
+    
+    .floating-badge .badge-text {
+        font-size: 1.5rem;
+    }
+    
+    .stat-card {
+        padding: 30px 15px;
+    }
+    
+    .stat-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    
+    .stat-number {
+        font-size: 1.8rem;
+    }
+    
+    .stat-label {
+        font-size: 0.8rem;
+    }
+    
+    .feature-highlight-card .card-body {
+        padding: 25px;
+    }
+    
+    .feature-list li {
+        font-size: 0.95rem;
+        padding: 10px 0;
+    }
+    
+    .feature-card {
+        padding: 30px 20px;
+    }
+    
+    .feature-card-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .ebook-image {
+        height: 220px;
+    }
+    
+    .ebook-title {
+        font-size: 1.1rem;
+        min-height: auto;
+    }
+    
+    .ebook-price {
+        font-size: 1.3rem;
+    }
+    
+    .review-avatar {
+        width: 50px;
+        height: 50px;
+        margin-right: 15px;
+    }
+    
+    .event-card .card-body {
+        padding: 25px;
+    }
+    
+    .event-day {
+        font-size: 2rem;
+    }
+    
+    .newsletter-card {
+        padding: 30px 20px;
+    }
+    
+    .newsletter-card h2 {
+        font-size: 1.8rem;
+    }
+    
+    .newsletter-icon {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    
+    .contact-info,
+    .contact-form {
+        padding: 25px 20px;
+    }
+    
+    .contact-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+        margin-right: 15px;
+    }
+    
+    .payment-methods {
+        justify-content: center;
+    }
+    
+    .footer {
+        padding: 40px 0 20px;
+    }
+    
+    .footer h5 {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+    
+    .footer-link {
+        font-size: 0.9rem;
+    }
+    
+    .modal-header {
+        padding: 20px;
+    }
+    
+    .modal-body {
+        padding: 20px;
+    }
+    
+    .cart-dropdown {
+        min-width: 280px;
+        margin-right: -20px;
+    }
+}
+
+/* Very small devices (phones, less than 400px) */
+@media (max-width: 399.98px) {
+    .hero-title {
+        font-size: 1.6rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .section-title {
+        font-size: 1.6rem;
+    }
+    
+    .btn-lg {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+    
+    .hero-image-wrapper {
+        padding: 10px;
+    }
+    
+    .floating-badge {
+        top: 10px;
+        right: 10px;
+        padding: 10px;
+    }
+    
+    .floating-badge .badge-text {
+        font-size: 1.2rem;
+    }
+    
+    .newsletter-card {
+        padding: 25px 15px;
+    }
+    
+    .newsletter-form .form-control,
+    .newsletter-form .btn {
+        padding: 15px 20px;
+        font-size: 1rem;
+    }
+    
+    .social-links {
+        gap: 10px;
+    }
+    
+    .social-link {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .navbar,
+    .hero-buttons,
+    .floating-badge,
+    .newsletter-section,
+    .footer,
+    .back-to-top,
+    .btn,
+    .add-to-cart,
+    .social-links,
+    .payment-methods,
+    .app-buttons {
+        display: none !important;
+    }
+    
+    body {
+        padding-top: 0;
+        font-size: 12pt;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #000 !important;
+    }
+    
+    .container {
+        max-width: 100%;
+        padding: 0;
+    }
+    
+    .hero-section {
+        padding: 20px 0 !important;
+        background: none !important;
+    }
+    
+    .hero-title {
+        font-size: 24pt !important;
+        color: #000 !important;
+    }
+    
+    .hero-subtitle,
+    .hero-description {
+        color: #000 !important;
+        font-size: 12pt !important;
+    }
+    
+    .section-title {
+        font-size: 18pt !important;
+        color: #000 !important;
+    }
+    
+    .section-title::after {
+        background: #000 !important;
+    }
+    
+    .section-subtitle {
+        color: #000 !important;
+        font-size: 11pt !important;
+    }
+    
+    .stat-card,
+    .feature-card,
+    .ebook-card,
+    .review-card,
+    .event-card,
+    .contact-info,
+    .contact-form {
+        box-shadow: none !important;
+        border: 1px solid #ddd !important;
+        page-break-inside: avoid;
+    }
+    
+    .ebook-image {
+        max-height: 150px;
+    }
+    
+    .review-text::before {
+        display: none;
+    }
+}
+/* Add to the responsive.css file */
+
+/* For medium screens */
+@media (max-width: 991.98px) {
+    .feature-card h4 {
+        min-height: 50px;
+        font-size: 1.2rem;
+    }
+    
+    .feature-card {
+        padding: 30px 20px;
+    }
+    
+    .feature-card-icon {
+        width: 70px;
+        height: 70px;
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+}
+
+/* For small screens */
+@media (max-width: 767.98px) {
+    .feature-card h4 {
+        min-height: auto;
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+    
+    .feature-card p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+    
+    .feature-card {
+        padding: 25px 15px;
+        margin-bottom: 15px;
+    }
+}
+
+/* For very small screens */
+@media (max-width: 575.98px) {
+    .feature-card h4 {
+        font-size: 1rem;
+        min-height: 40px;
+    }
+    
+    .feature-card p {
+        font-size: 0.9rem;
+    }
+    
+    .feature-card-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+}
